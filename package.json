@@ -1,0 +1,19 @@
+{
+  "name": "mini-microservices",
+  "version": "1.0.0",
+  "description": "A small and simple NodeJS library for creating microservice based applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasio101/mini-microservices.git"
+  },
+  "author": "Thomas Egbert Duursma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomasio101/mini-microservices/issues"
+  },
+  "homepage": "https://github.com/thomasio101/mini-microservices#readme"
+}
