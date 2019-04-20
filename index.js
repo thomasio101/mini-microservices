@@ -15,3 +15,5 @@ function startService(service) {
 for (const service in serviceConfigs)
     if (serviceConfigs.hasOwnProperty(service) && !serviceRegistry.hasOwnProperty(service))
         startService(service)
+
+require('./procedures.js')(serviceRegistry)

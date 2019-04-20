@@ -2,6 +2,8 @@
 A small and simple NodeJS library for creating microservice based applications.
 ## Contents
 - [Quickstart](#quickstart)
+### Advanced features
+- [Procedures](#procedures)
 ## Quickstart
 To get started with *mini-microservices*, create a new folder in which your project will reside.
 
@@ -72,3 +74,11 @@ Now open `services.json` and replace it with the following JSON:
 Now run `index.js` and open your web browser, go to `http://localhost/greeting?name=<INSERT YOUR OWN NAME>` and you'll see a greeting!
 
 Now you have a basic understanding of *mini-microservices*, go ahead and make something amazing!
+## Procedures
+Unmodified, the `procedures.js` file contains the following code:
+```javascript
+module.exports = (serviceRegistry) => {
+
+}
+```
+This function is executed after all services have been loaded, an example of a situation where this can be useful is when you need to start an http server after the starting process is complete.
