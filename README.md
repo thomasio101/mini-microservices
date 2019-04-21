@@ -13,6 +13,7 @@ Once you've made this folder, it's time to install *mini-microservices*, for thi
 |-LICENSE
 |-index.js
 |-package.json
+|-procedures.js
 |-services.json
 ```
 
